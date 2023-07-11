@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PWC Map</title>
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet' />
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.js"></script>
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.css" type="text/css">
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.min.js"></script>
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css" type="text/css">
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css"> <!--Style sheet-->
+
+    </head>
+    <body>
+       <div class="main">
+        <div class="left"><img src="PricewaterhouseCoopers_Logo.png" alt="PWC logo" width="90" height="60"></div>
+        <div class="right"><img src="Kasit.jpg" alt="Kasit logo" width="120" height="60"></div>
+
+       </div>
+        
+<center><div id='map'></div></center>
+<script src="script.js" defer></script>
+    </body>
+    <footer>
+    <div class="text-center p-4">
+        
+        <p id="demo"></p></div>
+
+    <div>
+        <center><a class="text-reset fw-bold" href="https://www.linkedin.com/in/abdalaziz-issa-a9557922b/"><p>Developed By Abdalaziz</p></a></center>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <script>//Date & Time>
+        const today=new Date()
+        document.getElementById("demo").innerHTML=today.toLocaleString();
+     </script> 
+</html> 
